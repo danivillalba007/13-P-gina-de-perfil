@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    height: 600px;
+}
+
+main {
+    display: flex;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav button {
+    background-color: #18a6bd;
+    color: white;
+    width: 100px;
+    height: 25px;
+    font-size: large;
+}
+
+.perfil {
+    border: 3px solid rgb(197, 196, 196);
+    height: 400px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.perfil-portada {
+    background-color: #17a2b8;
+    height: 100px;
+    display: flex;
+}
+
+.perfil-portada img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-nombre {
+    width: 156px;
+    height: 26px;
+    padding: 10px;
+    margin-top: 81px;
+    margin-left: 56px;
+}
+
+.perfil-ciudad {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    margin-left: 58px;
+    margin-top: 8px;
+}
+
+.perfil-ciudad img {
+    width: 23px;
+    height: 31px;
+    margin-right: 10px;
+}
+
+.perfil-detalle {
+    padding: 23px;
+    padding-left: 66px;
+    font-size: larger;
+}
+
+.perfil-edit-profile img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 58px;
+}
+
+.perfil-edit-profile a {
+    font-size: x-large;
+    color: blue;
+}
+
+.education {
+    border: 3px solid rgb(197, 196, 196);
+    height: 400px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.titulo-tabla {
+    background-color: #333333;
+    height: 15%;
+    width: 100%;
+    display: flex;
+}
+
+.titulo-tabla h4 {
+    color: white;
+    padding: 2% 0% 0% 7%;
+    font-size: xx-large;
+}
+
+.education-lugar {
+    padding: 2% 0% 0% 7%;
+}
+
+.education-tiempo {
+    padding: 2% 0% 0% 7%;
+}
+
+.education-tiempo p {
+    color: #a4a4a4;
+}
+
+.education-capacidad-tecnica {
+    padding: 2% 0% 0% 7%;
+}
+
+.connection-requests {
+    display: flex;
+    flex-direction: column;
+    margin: 29px;
+    height: 200px;
+    width: 344px;
+    border: 3px solid rgb(197, 196, 196);
+}
+
+.connection-requests img {
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+}
+
+.foto-nombre {
+    display: flex;
+}
+
+.foto-nombre-icono {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px;
+    padding: 9px;
+}
+
+.foto-nombre-icono p {
+    font-size: x-large;
+    margin: 5px;
+    font-size: xx-large;
+    margin: 11px 0px 0px 16px;
+}
+
+.titulo-conection {
+    background-color: #333333;
+    height: 21%;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+}
+
+.titulo-conection h4 {
+    color: white;
+    font-size: xx-large;
+}
+
+.titulo-conection p {
+    color: white;
+    font-size: xx-large;
+}
+
+#numero {
+    background-color: rgb(255, 255, 255);
+    padding: 3px 12px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+}
+
+.your-connections {
+    display: flex;
+    flex-direction: column;
+    margin: 29px;
+    height: 375px;
+    width: 347px;
+    border: 3px solid rgb(197, 196, 196);
+}
+
+.your-connections img {
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+}
+
+.titulo-your-conection {
+    background-color: #333333;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    padding: 10px 1px 15px 1px;
+    justify-content: space-around;
+}
+
+.titulo-your-conection h4 {
+    color: white;
+    font-size: xx-large;
+}
+
+.titulo-your-conection p {
+    color: white;
+    font-size: xx-large;
+    height: 30px;
+}
+
+.view-more {
+    margin: 0px -2px 0px -3px;
+    border: 3px solid rgb(197, 196, 196);
+    padding: 0px 0px 6px 18px;
+}
+
+.view-more a {
+    font-size: xx-large;
+}
